@@ -1,8 +1,9 @@
-package com.qa.stepdef;
+package com.appium.stepdefinitions;
 
-import com.qa.pages.BasePage;
-import com.qa.utils.DriverManager;
-import com.qa.utils.VideoManager;
+import com.appium.pages.BasePage;
+import com.appium.utils.DriverManager;
+import com.appium.utils.VideoManager;
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

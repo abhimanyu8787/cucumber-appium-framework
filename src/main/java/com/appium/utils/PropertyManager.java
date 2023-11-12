@@ -1,4 +1,4 @@
-package com.qa.utils;
+package com.appium.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

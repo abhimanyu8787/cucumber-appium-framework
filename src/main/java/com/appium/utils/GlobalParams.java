@@ -1,4 +1,4 @@
-package com.qa.utils;
+package com.appium.utils;
 
 public class GlobalParams {
     private static ThreadLocal<String> platformName = new ThreadLocal<String>();

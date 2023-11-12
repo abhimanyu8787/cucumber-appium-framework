@@ -1,12 +1,13 @@
-package com.qa.stepdef;
+package com.appium.stepdefinitions;
 
-import com.qa.pages.LoginPage;
-import com.qa.pages.ProductDetailsPage;
-import com.qa.pages.ProductsPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+
+import com.appium.pages.LoginPage;
+import com.appium.pages.ProductDetailsPage;
+import com.appium.pages.ProductsPage;
 
 public class ProductStepDef {
 

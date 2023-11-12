@@ -1,9 +1,10 @@
-package com.qa.pages;
+package com.appium.pages;
 
-import com.qa.utils.TestUtils;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.WebElement;
+
+import com.appium.utils.TestUtils;
 
 public class SettingsPage extends BasePage {
 	TestUtils utils = new TestUtils();

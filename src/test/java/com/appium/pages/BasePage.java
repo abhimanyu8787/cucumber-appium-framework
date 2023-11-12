@@ -1,9 +1,5 @@
-package com.qa.pages;
+package com.appium.pages;
 
-import com.qa.utils.DriverManager;
-import com.qa.utils.GlobalParams;
-import com.qa.utils.PropertyManager;
-import com.qa.utils.TestUtils;
 import io.appium.java_client.*;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
@@ -15,6 +11,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.appium.utils.DriverManager;
+import com.appium.utils.GlobalParams;
+import com.appium.utils.PropertyManager;
+import com.appium.utils.TestUtils;
 
 import java.time.Duration;
 import java.util.HashMap;

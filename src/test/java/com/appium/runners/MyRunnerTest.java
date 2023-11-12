@@ -1,14 +1,15 @@
-package com.qa.runners;
+package com.appium.runners;
 
-import com.qa.utils.DriverManager;
-import com.qa.utils.GlobalParams;
-import com.qa.utils.ServerManager;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.apache.logging.log4j.ThreadContext;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+
+import com.appium.utils.DriverManager;
+import com.appium.utils.GlobalParams;
+import com.appium.utils.ServerManager;
 
 import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 

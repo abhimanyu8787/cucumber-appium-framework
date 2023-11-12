@@ -1,4 +1,4 @@
-package com.qa.utils;
+package com.appium.utils;
 
 import io.appium.java_client.screenrecording.CanRecordScreen;
 import org.apache.commons.codec.binary.Base64;

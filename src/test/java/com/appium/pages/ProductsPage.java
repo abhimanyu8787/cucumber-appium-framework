@@ -1,11 +1,12 @@
-package com.qa.pages;
+package com.appium.pages;
 
-import com.qa.utils.GlobalParams;
-import com.qa.utils.TestUtils;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+
+import com.appium.utils.GlobalParams;
+import com.appium.utils.TestUtils;
 
 public class ProductsPage extends MenuPage {
 	TestUtils utils = new TestUtils();
